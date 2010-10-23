@@ -8,14 +8,22 @@
     <title>WTF!</title>
 </head>
 <body>
-    <mobile:Form id="form1" runat="server" EnableViewState="False">
+    <mobile:Form id="form_login" runat="server" EnableViewState="False">
+        <mobile:Label ID="m_labelError" Runat="server"></mobile:Label>
         <mobile:Label id="m_labelName" Runat="server">Name</mobile:Label>
         <mobile:TextBox ID="m_tbName" Runat="server"></mobile:TextBox>
-        <mobile:Command ID="m_butSubmit" Runat="server" OnClick="m_butSubmit_Click">Submit</mobile:Command>
+        <mobile:Label id="m_labelPassword" Runat="server">Password</mobile:Label>
+        <mobile:TextBox Password="True" ID="m_tbPassword" Runat="server"></mobile:TextBox>
+        <mobile:Command ID="m_butLogin" Runat="server" OnClick="m_butLogin_Click">Login</mobile:Command>
     </mobile:Form>
-    <mobile:Form id="form2" runat="server" EnableViewState="False">
+    <mobile:Form id="form_chat" runat="server" EnableViewState="False">
+        <mobile:Label ID="m_labelWelcome" Runat="server"></mobile:Label>
+        <br />
+
+        chat stuff goes here!
+
         <mobile:Label id="m_labelResult" Runat="server"></mobile:Label>
-        <mobile:Link ID="m_link" Runat="server" NavigateUrl="#form1">back!</mobile:Link>
+        <mobile:Command ID="m_butLogout" Runat="server" OnClick="m_butLogout_Click">Logout</mobile:Command>
     </mobile:Form>
 </body>
 </html>
