@@ -7,7 +7,7 @@
 <head runat="server"></head>
 <body>
     <mobile:Form id="form_login" runat="server" EnableViewState="False">
-        <mobile:Label ID="test" runat="server" EnableViewState="False">bla</mobile:Label>
+        <mobile:Label ID="test" runat="server" EnableViewState="False">Please log in to chat!</mobile:Label>
         <mobile:Label ID="m_labelError" Runat="server"></mobile:Label>
         <mobile:Label id="m_labelName" Runat="server">Name</mobile:Label>
         <mobile:TextBox ID="m_tbName" Runat="server"></mobile:TextBox>

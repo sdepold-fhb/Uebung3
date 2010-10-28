@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArrayOfUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <User>
+    <Name>koerner</Name>
+    <HashedPassword>8D8F60F287BB3B8F90EF01DB213A1B8312B72AB1</HashedPassword>
+  </User>
+  <User>
+    <Name>depold</Name>
+    <HashedPassword>12EF64B6ED55B4BBE5400B55ACF0E7C0D56DE05A</HashedPassword>
+  </User>
+</ArrayOfUser>
